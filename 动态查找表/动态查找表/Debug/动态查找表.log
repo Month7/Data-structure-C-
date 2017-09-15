@@ -1,0 +1,21 @@
+﻿生成启动时间为 2017/5/31 19:24:54。
+     1>项目“D:\VS工程2\动态查找表\动态查找表\动态查找表.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\VS2015\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt "源.cpp"
+         源.cpp
+     1>d:\vs工程2\动态查找表\动态查找表\源.cpp(59): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+     1>d:\vs工程2\动态查找表\动态查找表\源.cpp(67): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+     1>d:\vs工程2\动态查找表\动态查找表\源.cpp(73): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+     1>d:\vs工程2\动态查找表\动态查找表\源.cpp(75): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'ElemType'
+     1>d:\vs工程2\动态查找表\动态查找表\源.cpp(28): warning C4715: “Search”: 不是所有的控件路径都返回值
+       Link:
+         D:\VS2015\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\VS工程2\动态查找表\Debug\动态查找表.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\VS工程2\动态查找表\Debug\动态查找表.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\VS工程2\动态查找表\Debug\动态查找表.lib" /MACHINE:X86 "Debug\源.obj"
+         动态查找表.vcxproj -> D:\VS工程2\动态查找表\Debug\动态查找表.exe
+     1>已完成生成项目“D:\VS工程2\动态查找表\动态查找表\动态查找表.vcxproj”(Build 个目标)的操作。
+
+已成功生成。
+
+已用时间 00:00:00.48
