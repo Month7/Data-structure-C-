@@ -1,0 +1,23 @@
+﻿  头插法.cpp
+c:\vs工程\单链表（逆置插入删除等）\consoleapplication3\头插法.cpp(15): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+c:\vs工程\单链表（逆置插入删除等）\consoleapplication3\头插法.cpp(19): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+c:\vs工程\单链表（逆置插入删除等）\consoleapplication3\头插法.cpp(106): warning C4101: “n”: 未引用的局部变量
+c:\vs工程\单链表（逆置插入删除等）\consoleapplication3\头插法.cpp(153): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+c:\vs工程\单链表（逆置插入删除等）\consoleapplication3\头插法.cpp(165): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+c:\vs工程\单链表（逆置插入删除等）\consoleapplication3\头插法.cpp(172): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+c:\vs工程\单链表（逆置插入删除等）\consoleapplication3\头插法.cpp(135): warning C4101: “p”: 未引用的局部变量
+头插法.obj : error LNK2005: "void __cdecl Nizhilist(struct LNode *)" (?Nizhilist@@YAXPAULNode@@@Z) 已经在 单链表.obj 中定义
+头插法.obj : error LNK2005: "void __cdecl creatlist(struct LNode *)" (?creatlist@@YAXPAULNode@@@Z) 已经在 单链表.obj 中定义
+头插法.obj : error LNK2005: "int __cdecl deletelist(int,struct LNode *)" (?deletelist@@YAHHPAULNode@@@Z) 已经在 单链表.obj 中定义
+头插法.obj : error LNK2005: "void __cdecl inslist(struct LNode *,int,int)" (?inslist@@YAXPAULNode@@HH@Z) 已经在 单链表.obj 中定义
+头插法.obj : error LNK2005: "void __cdecl jishu(struct LNode *)" (?jishu@@YAXPAULNode@@@Z) 已经在 单链表.obj 中定义
+头插法.obj : error LNK2005: "void __cdecl locatelist(struct LNode *,int)" (?locatelist@@YAXPAULNode@@H@Z) 已经在 单链表.obj 中定义
+头插法.obj : error LNK2005: "void __cdecl menulist(void)" (?menulist@@YAXXZ) 已经在 单链表.obj 中定义
+头插法.obj : error LNK2005: "void __cdecl showlist(struct LNode *)" (?showlist@@YAXPAULNode@@@Z) 已经在 单链表.obj 中定义
+头插法.obj : error LNK2005: _main 已经在 单链表.obj 中定义
+C:\VS工程\单链表（逆置插入删除等）\Debug\ConsoleApplication3.exe : fatal error LNK1169: 找到一个或多个多重定义的符号

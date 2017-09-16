@@ -1,0 +1,13 @@
+﻿  源.cpp
+d:\vs工程\中后序恢复二叉树\中后序恢复二叉树\源.cpp(43): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+d:\vs工程\中后序恢复二叉树\中后序恢复二叉树\源.cpp(46): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _flushall. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2451): note: 参见“flushall”的声明
+d:\vs工程\中后序恢复二叉树\中后序恢复二叉树\源.cpp(49): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+d:\vs工程\中后序恢复二叉树\中后序恢复二叉树\源.cpp(52): warning C4996: 'flushall': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _flushall. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(2451): note: 参见“flushall”的声明
+d:\vs工程\中后序恢复二叉树\中后序恢复二叉树\源.cpp(55): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdio.h(1270): note: 参见“scanf”的声明
+  中后序恢复二叉树.vcxproj -> D:\VS工程\中后序恢复二叉树\Debug\中后序恢复二叉树.exe
+  中后序恢复二叉树.vcxproj -> D:\VS工程\中后序恢复二叉树\Debug\中后序恢复二叉树.pdb (Full PDB)
