@@ -1,46 +1,39 @@
 #include <stdio.h>
+void quick_sort(int s[], int m, int n) {
+	int i, j, x;
 
-void swap(int a[], int i, int j)
-{
-	int t = a[i];
-	a[i] = a[j];
-	a[j] = t;
-}
-
-int partition(int a[], int p, int r)
-{
-	int i = p;
-	int j = r + 1;
-	int x = a[p];
-	while (1) {
-		while (i < r && a[++i] < x);
-		while (a[--j] > x);
-		if (i >= j) break;
-		swap(a, i, j);
-	}
-	______________________;
-	return j;
-}
-
-void quicksort(int a[], int p, int r)
-{
-	if (p < r) {
-		int q = partition(a, p, r);
-		quicksort(a, p, q - 1);
-		quicksort(a, q + 1, r);
+	if (m < n) {
+		i = m;
+		j = n;
+		x = s[i];
+		while (i < j) {
+			while (i < j&&s[j] > x) {
+				j--;
+			}
+			if (i < j) {
+				s[i] = s[j];
+				i++;
+			}
+			while (i < j&&s[i] < x) {
+				i++;
+			}
+			if (i < j) {
+				s[j] = s[i];
+				j--;
+			}
+		}
+		s[i] = x;
+		quick_sort(s, m + 1, n);
+		quick_sort(s, m, n - 1);
 	}
 }
+int main() {
+	int a[] = { 49,38,65,97,76,13,27 };
+	int l = 0;
+	int r = 6;
+	quick_sort(a, 0, 6);
 
-int main()
-{
-	int i;
-	int a[] = { 5,13,6,24,2,8,19,27,6,12,1,17 };
-	int N = 12;
-
-	quicksort(a, 0, N - 1);
-
-	for (i = 0; i < N; i++) printf("%d ", a[i]);
-	printf("\n");
-
+	for (int i = 0; i <= r; i++)
+		printf("%4d", a[i]);
 	return 0;
 }
